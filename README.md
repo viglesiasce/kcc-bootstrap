@@ -44,4 +44,5 @@ This repositories contains automation to quickly provision a
     ```shell
     sed -i s/PROJECT_ID/$PROJECT_ID/g bucket.yaml
     kubectl apply -f bucket.yaml
+    watch gsutil ls gs://$PROJECT_ID-kcc-bootstrap-demo
     ```
