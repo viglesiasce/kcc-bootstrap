@@ -1,9 +1,7 @@
   apiVersion: storage.cnrm.cloud.google.com/v1beta1
   kind: StorageBucket
   metadata:
-    annotations:
-      cnrm.cloud.google.com/project-id : vic-goog
-    name: vic-goog-kcc-bootstrap-demo
+    name: PROJECT_ID-kcc-bootstrap-demo
   spec:
     lifecycleRule:
       - action:

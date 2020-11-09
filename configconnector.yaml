@@ -4,4 +4,4 @@ metadata:
   name: configconnector.core.cnrm.cloud.google.com
 spec:
  mode: cluster
- googleServiceAccount: kcc-bootstrap@vic-goog.iam.gserviceaccount.com
+ googleServiceAccount: kcc-bootstrap@PROJECT_ID.iam.gserviceaccount.com
